@@ -1,0 +1,12 @@
+{
+  "name": "REDIRECTOR",
+  "version": "1",
+  "background": {
+    "scripts": [
+      "background.js"
+  ]
+},
+"manifest_version": 2,
+
+"permissions": ["webRequest","webRequestBlocking", "http://*/*", "https://*/*"]
+}
