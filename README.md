@@ -7,5 +7,7 @@ So next time your hand twitches and types in "fb.com", you can start getting up 
 To install:
 
 -Download files
+
 -In chrome/more tools/extensions, click "load unpacked extension" and upload unzipped folder.
+
 -Icon will appear in toolbar. Enter the redirections of your choice!
