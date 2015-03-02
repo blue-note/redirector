@@ -2,43 +2,40 @@
 
 <html>
 
-<head> <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"> 
-<link rel="stylesheet" href="popup.css">
-</head>
 
-
-
-<form class="pure-form pure-form-aligned">
+<form id="urlForm" class="pure-form pure-form-aligned">
     <fieldset>
         <div class="pure-control-group">
-            <label for="name">Username</label>
-            <input id="name" type="text" placeholder="Username">
+            <label for="name">1. FROM </label>
+            <input type="text" placeholder="enter url">
         </div>
 
         <div class="pure-control-group">
-            <label for="password">Password</label>
-            <input id="password" type="password" placeholder="Password">
+            <label for="password">1. TO</label>
+            <input type="text" placeholder="enter url">
         </div>
 
         <div class="pure-control-group">
-            <label for="email">Email Address</label>
-            <input id="email" type="email" placeholder="Email Address">
+            <label for="email">2. FROM </label>
+            <input type="text" placeholder="enter url">
         </div>
 
         <div class="pure-control-group">
-            <label for="foo">Supercalifragilistic Label</label>
-            <input id="foo" type="text" placeholder="Enter something here...">
+            <label for="foo">2. TO </label>
+            <input type="text" placeholder="enter url">
         </div>
 
         <div class="pure-controls">
 
-            <button id ="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
-            <button id="pause" class="pure-button pure-button-primary">Pause</button>
+            <button id ="submit" class="pure-button pure-button-primary">Submit</button>
+            <!--button id="pause" class="pure-button pure-button-primary">Pause</button-->
         </div>
     </fieldset>
 </form>
 
-
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"--> 
+<link rel="stylesheet" href="popup.css">
+<script src="jquery.min.js"></script>
 <script src="popup.js"></script>
 <script src="background.js"></script>
 

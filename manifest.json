@@ -4,7 +4,8 @@
   "background": {
     "scripts": [
       "popup.js",
-      "background.js"
+      "background.js",
+      "jquery.min.js"
   ]
 },
 "manifest_version": 2,
@@ -13,4 +14,5 @@
 "default_popup": "popup.html"
 },
 "permissions": ["webRequest","webRequestBlocking", "http://*/*", "https://*/*"]
+
 }
