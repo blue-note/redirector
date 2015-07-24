@@ -1,13 +1,9 @@
 # redirector
-Redirector is a chrome extension which redirects your urls to ones of your choice. (i.e. facebook.com ---> nytimes.com) 
-The process of internet surfing, once begun, often spirals into oblivion. However,
-if the starting point to your surfing were more intentional, then your surfing session could produce much greater value. 
-So next time your hand twitches and types in "fb.com", you can start getting up to speed on world politics instead.
+Redirector is a chrome extension that redirects urls to other urls.
+So next time your hand twitches and types in "facebook.com", you can be forced to read the news instead.
 
 To install:
 
--Download files
+-In chrome toolbar --> more tools --> extensions, click "load unpacked extension" and upload unzipped folder.
 
--In chrome/more tools/extensions, click "load unpacked extension" and upload unzipped folder.
-
--Icon will appear in toolbar. Enter the redirections of your choice!
+-Icon will appear in toolbar. Enter chosen redirections.

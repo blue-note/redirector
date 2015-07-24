@@ -1,26 +1,12 @@
 var paused = false;
-window.onload = function() {
+$(document).ready(function() {
+	$(".url-form").submit(function(event) {
+		event.preventDefault();
+		var $inputs = $("input").serializeArray();
+		console.log($inputs);
+	});
 
-$("#submit").click(function() {
-console.log("hey");
-
-var inputs = $("#urlForm").serialize();
-
+	$("#pause").click(function() {
+		paused = !paused;
+	});
 });
-
-
-/*
-document.getElementById("pause").onclick = function() {
-paused = !paused;
-if (paused == true) document.getElementById("pause").innerHTML = "unpause";
-else document.getElementById("pause").innerHTML = "pause";
-window.close();
-
-}
-*/
-
-
-}
-
-
-
